@@ -987,7 +987,7 @@ export default function Home() {
                     />
                   </svg>
                   <span className="text-sm">
-                    Sector 62 Noida, Uttar Pradesh 201310
+                    Sector 62 Noida, Uttar Pradesh 201309
                   </span>
                 </div>
                 <div className="flex gap-2 items-center mt-5">
