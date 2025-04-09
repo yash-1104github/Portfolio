@@ -17,9 +17,12 @@ export default function Home() {
     e.preventDefault();
     document.getElementById("sendBtn").innerHTML = "Sending...";
     emailjs
-      .sendForm("service_0ek313k", "template_7opfefg", form.current, {
-        publicKey: "y2kYttgDbLKN9V7Nx",
+      .sendForm("service_3kpm6q8", "template_1xt8hsb", form.current, {
+        publicKey: "xKhzDJsNEnGPNycPb",
       })
+      // service_id = 
+      //templete_id = 
+      //public key = 
       .then(
         () => {
           setSuccessTost(true);
@@ -43,6 +46,7 @@ export default function Home() {
 
   const [successTost, setSuccessTost] = useState(false);
   const [errorTost, setErrorTost] = useState(false);
+
 
   return (
     <>
@@ -987,7 +991,7 @@ export default function Home() {
                     />
                   </svg>
                   <span className="text-sm">
-                    Sector 62 Noida, Uttar Pradesh 201310
+                    Sector 62 Noida, Uttar Pradesh 201309
                   </span>
                 </div>
                 <div className="flex gap-2 items-center mt-5">
