@@ -1170,7 +1170,7 @@ export default function Home() {
       </nav>
 
       {/* Social Links */}
-      <div className="fixed md:block bottom-1 md:bottom-4 right-1 lg:right-3 p-2">
+      <div className="fixed hidden md:block bottom-1 md:bottom-4 right-1 lg:right-3 p-2">
         <ul className="">
           <li className="my-4">
             <a
