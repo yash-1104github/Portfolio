@@ -9,13 +9,11 @@ module.exports = {
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "gradient-conic": "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
-    },
-  },
-  theme: {
-    extend: {
+      screens: {
+        "xs": "375px", // anything greater than 320px
+      },
       animation: {
         typewriter: "typewriter 2s steps(11) forwards",
       },

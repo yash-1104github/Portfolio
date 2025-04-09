@@ -147,9 +147,9 @@ export default function Home() {
 
         </div>
         <div>
-          <ul className="flex items-center justify-evenly gap-4 text-sm md:gap-6 md:text-base lg:gap-10 lg:text-lg">
+          <ul className="flex items-center justify-evenly gap-3 text-sm sm:gap-4  md:gap-6 md:text-base lg:gap-10 lg:text-lg">
             <Link to="home" smooth={true} duration={200} offset={-70}>
-              <li className="cursor-pointer hover:drop-shadow hover:underline hover:text-sky-300 font-mono">
+              <li className="cursor-pointer hidden xs:flex hover:drop-shadow hover:underline hover:text-sky-300 font-mono">
                 Home
               </li>
             </Link>
@@ -200,7 +200,7 @@ export default function Home() {
             FullStack Developer | Backend | Node.Js | MySQL | React Js | MONGODB
             | Tailwind | DSA | Problem solving | Competitive Programmer
           </div>
-          <div className="md:hidden w-9/12 lg:w-11/12 pb-5 text-sm font-mono flex items-center  text-gray-400 cursor-default text-center pl-4">
+          <div className="md:hidden w-9/12 lg:w-11/12 pb-5 text-sm font-mono  flex items-center justify-center mx-auto  text-gray-400 cursor-default text-center">
             Final-year B.Tech CSE at JIIT, Nodia with a strong passion for Software
             and problem-solving.I have solid understanding of building scalable and efficient solutions.I am eager to apply my technical skills, to create impactful
             solutions and grow as software developer.

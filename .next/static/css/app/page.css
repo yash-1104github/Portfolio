@@ -500,6 +500,12 @@ video {
 .container {
   width: 100%;
 }
+@media (min-width: 375px) {
+
+  .container {
+    max-width: 375px;
+  }
+}
 @media (min-width: 640px) {
 
   .container {
@@ -735,9 +741,6 @@ video {
 }
 .gap-3 {
   gap: 0.75rem;
-}
-.gap-4 {
-  gap: 1rem;
 }
 .gap-5 {
   gap: 1.25rem;
@@ -1221,7 +1224,18 @@ body {
   outline-offset: 2px;
 }
 
+@media (min-width: 375px) {
+
+  .xs\:flex {
+    display: flex;
+  }
+}
+
 @media (min-width: 640px) {
+
+  .sm\:gap-4 {
+    gap: 1rem;
+  }
 
   .sm\:text-4xl {
     font-size: 2.25rem;
