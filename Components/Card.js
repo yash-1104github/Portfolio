@@ -10,7 +10,6 @@ const Card = () => {
         width={500}
         height={300}
       />
-
       <div className="px-6 py-4 bg-gray-900">
         <div className="font-bold text-xl mb-2">Project Title</div>
         <p className="text-gray-200 text-base">

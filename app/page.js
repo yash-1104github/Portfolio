@@ -8,9 +8,7 @@ import { Link, Element } from "react-scroll";
 import "./globals.css";
 import TypingAnimation from "@/Components/typingAnimation";
 
-
 export default function Home() {
-
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -20,9 +18,9 @@ export default function Home() {
       .sendForm("service_3kpm6q8", "template_1xt8hsb", form.current, {
         publicKey: "xKhzDJsNEnGPNycPb",
       })
-      // service_id = 
-      //templete_id = 
-      //public key = 
+      //service_id =
+      //templete_id =
+      //public key =
       .then(
         () => {
           setSuccessTost(true);
@@ -34,7 +32,7 @@ export default function Home() {
         },
         (error) => {
           setErrorTost(true);
-          console.log(error)
+          console.log(error);
           document.getElementById("sendBtn").innerHTML = "Failed...";
           setTimeout(() => {
             document.getElementById("sendBtn").innerHTML = "Send Message";
@@ -46,7 +44,6 @@ export default function Home() {
 
   const [successTost, setSuccessTost] = useState(false);
   const [errorTost, setErrorTost] = useState(false);
-
 
   return (
     <>
@@ -143,9 +140,7 @@ export default function Home() {
         name="home"
         className="w-full h-24 flex  items-center justify-center md:justify-between md:px-10 lg:px-20 bg-gradient-to-b from-black to-transparent"
       >
-        <div>
-
-        </div>
+        <div></div>
         <div>
           <ul className="flex items-center justify-evenly gap-3 text-sm sm:gap-4  md:gap-6 md:text-base lg:gap-10 lg:text-lg">
             <Link to="home" smooth={true} duration={200} offset={-70}>
@@ -201,18 +196,22 @@ export default function Home() {
             | Tailwind | DSA | Problem solving | Competitive Programmer
           </div>
           <div className="md:hidden w-9/12 lg:w-11/12 pb-5 text-sm font-mono  flex items-center justify-center mx-auto  text-gray-400 cursor-default text-center">
-            Final-year B.Tech CSE at JIIT, Nodia with a strong passion for Software
-            and problem-solving.I have solid understanding of building scalable and efficient solutions.I am eager to apply my technical skills, to create impactful
-            solutions and grow as software developer.
+            Final-year B.Tech CSE at JIIT, Nodia with a strong passion for
+            Software and problem-solving.I have solid understanding of building
+            scalable and efficient solutions.I am eager to apply my technical
+            skills, to create impactful solutions and grow as software
+            developer.
           </div>
           <div className="hidden w-9/12 lg:w-11/12 pb-5 text-sm font-mono md:flex items-center  text-gray-400 cursor-default text-center pl-6">
             FullStack Developer | Backend | Node.Js | MySQL | React Js | MONGODB
             | Tailwind | DSA | Problem solving | Competitive Programmer
           </div>
           <div className="hidden w-9/12 lg:w-11/12 pb-5 text-sm font-mono md:flex items-center  text-gray-400 cursor-default text-center pl-4">
-            Final-year B.Tech CSE at JIIT, Nodia with a strong passion for Software
-            and problem-solving.I have solid understanding of building scalable and efficient solutions.I am eager to apply my technical skills, to create impactful
-            solutions and grow as software developer.
+            Final-year B.Tech CSE at JIIT, Nodia with a strong passion for
+            Software and problem-solving.I have solid understanding of building
+            scalable and efficient solutions.I am eager to apply my technical
+            skills, to create impactful solutions and grow as software
+            developer.
           </div>
           <div className="flex gap-10">
             <Link to="contactSection" smooth={true} duration={300} offset={-70}>
@@ -290,55 +289,18 @@ export default function Home() {
               alt="Sunset in the mountains"
               width={700}
               height={500}
-              
             />
 
             <div className="px-6 py-4 bg-gray-900">
               <div className="font-bold text-xl mb-2">AI DECO</div>
               <p className="text-gray-200 font-thin md:text-sm lg:text-base  min-h-12">
-                MERN | NEXT.JS | REACT JS | NODE.JS | TAILWIND | POSTGRESQL | JAVASCRIPT | CLERK | REPLICATE API
+                MERN | NEXT.JS | REACT JS | NODE.JS | TAILWIND | POSTGRESQL |
+                JAVASCRIPT | CLERK | REPLICATE API
               </p>
             </div>
             <div className="px-6 pt-4 pb-2 bg-gray-900 flex items-center justify-between">
               <span>
-                <a
-                  title="FrontEnd"
-                  href="https://github.com/yash-1104github/AI-Deco/tree/main/app"
-                  target="_blank"
-                  className="cursor-pointer inline-block bg-gray-200 rounded-full p-1 text-sm md:text-xs lg:text-sm font-semibold text-gray-700 mr-2"
-                >
-                  {/* Frontend */}
-                  <svg
-                    className="hover:scale-110 hover:animate-spin"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    width="22"
-                    height="22"
-                    color="blue"
-                    fill="none"
-                  >
-                    <path
-                      d="M8.00001 12C8.00001 6.47715 9.79087 2 12 2C14.2091 2 16 6.47715 16 12C16 17.5228 14.2091 22 12 22C9.79087 22 8.00001 17.5228 8.00001 12Z"
-                      stroke="currentColor"
-                      strokeWidth="1.5"
-                    />
-                    <path
-                      d="M9.97531 8.61921C14.8173 5.85779 19.649 5.17014 20.7673 7.08331C21.8855 8.99648 18.8667 12.786 14.0247 15.5474C9.18271 18.3088 4.35098 18.9965 3.23277 17.0833C2.11455 15.1701 5.13329 11.3806 9.97531 8.61921Z"
-                      stroke="currentColor"
-                      strokeWidth="1.5"
-                    />
-                    <path
-                      d="M14.0247 8.61921C18.8667 11.3806 21.8855 15.1701 20.7673 17.0833C19.649 18.9965 14.8173 18.3088 9.97531 15.5474C5.13329 12.786 2.11455 8.99648 3.23277 7.08331C4.35098 5.17014 9.18271 5.85779 14.0247 8.61921Z"
-                      stroke="currentColor"
-                      strokeWidth="1.5"
-                    />
-                    <path
-                      d="M13.5 12C13.5 12.8284 12.8284 13.5 12 13.5C11.1716 13.5 10.5 12.8284 10.5 12C10.5 11.1716 11.1716 10.5 12 10.5C12.8284 10.5 13.5 11.1716 13.5 12Z"
-                      stroke="currentColor"
-                      strokeWidth="1.5"
-                    />
-                  </svg>
-                </a>
+               
                 <a
                   title="Github"
                   href="https://github.com/yash-1104github/AI-Deco"
@@ -409,49 +371,12 @@ export default function Home() {
             <div className="px-6 py-4 bg-gray-900">
               <div className="font-bold text-xl mb-2">Travel Buddy</div>
               <p className="text-gray-200 font-thin md:text-sm lg:text-base min-h-12">
-                MERN | REACT JS | NODE.JS | TAILWIND | JAVASCRIPT | FIREBASE | EXPRESS JS | REST API
+                MERN | REACT JS | NODE.JS | TAILWIND | JAVASCRIPT | FIREBASE |
+                EXPRESS JS | REST API
               </p>
             </div>
             <div className="px-6 pt-4 pb-2 bg-gray-900 flex items-center justify-between">
               <span>
-                <a
-                  title="FrontEnd"
-                  href="https://github.com/yash-1104github/Travel_buddy/tree/main/src"
-                  target="_blank"
-                  className="cursor-pointer inline-block bg-gray-200 rounded-full p-1 text-sm md:text-xs lg:text-sm font-semibold text-gray-700 mr-2"
-                >
-                  {/* Frontend */}
-                  <svg
-                    className="hover:scale-110 hover:animate-spin"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    width="22"
-                    height="22"
-                    color="blue"
-                    fill="none"
-                  >
-                    <path
-                      d="M8.00001 12C8.00001 6.47715 9.79087 2 12 2C14.2091 2 16 6.47715 16 12C16 17.5228 14.2091 22 12 22C9.79087 22 8.00001 17.5228 8.00001 12Z"
-                      stroke="currentColor"
-                      strokeWidth="1.5"
-                    />
-                    <path
-                      d="M9.97531 8.61921C14.8173 5.85779 19.649 5.17014 20.7673 7.08331C21.8855 8.99648 18.8667 12.786 14.0247 15.5474C9.18271 18.3088 4.35098 18.9965 3.23277 17.0833C2.11455 15.1701 5.13329 11.3806 9.97531 8.61921Z"
-                      stroke="currentColor"
-                      strokeWidth="1.5"
-                    />
-                    <path
-                      d="M14.0247 8.61921C18.8667 11.3806 21.8855 15.1701 20.7673 17.0833C19.649 18.9965 14.8173 18.3088 9.97531 15.5474C5.13329 12.786 2.11455 8.99648 3.23277 7.08331C4.35098 5.17014 9.18271 5.85779 14.0247 8.61921Z"
-                      stroke="currentColor"
-                      strokeWidth="1.5"
-                    />
-                    <path
-                      d="M13.5 12C13.5 12.8284 12.8284 13.5 12 13.5C11.1716 13.5 10.5 12.8284 10.5 12C10.5 11.1716 11.1716 10.5 12 10.5C12.8284 10.5 13.5 11.1716 13.5 12Z"
-                      stroke="currentColor"
-                      strokeWidth="1.5"
-                    />
-                  </svg>
-                </a>
                 <a
                   title="Github"
                   href="https://github.com/yash-1104github/Travel_buddy"
@@ -520,63 +445,14 @@ export default function Home() {
             />
 
             <div className="px-6 py-4 bg-gray-900">
-              <div className="font-bold text-xl mb-2">SNAPGEN</div>
+              <div className="font-bold text-xl mb-2">GENAI</div>
               <p className="text-gray-200 md:text-sm lg:text-base font-thin min-h-12">
-                MERN | REACT JS | NODE.JS | TAILWIND | MONGODB | JAVASCRIPT | REST API | EXPRESS JS | MATERIAL-UI
+                MERN | REACT JS | NODE.JS | TAILWIND | MONGODB | JAVASCRIPT |
+                REST API | EXPRESS JS | MATERIAL-UI
               </p>
             </div>
             <div className="px-6 pt-4 pb-2 bg-gray-900 flex items-center justify-between">
-              <span>
-                <a
-                  title="FrontEnd"
-                  href="https://github.com/yash-1104github/AI-Image-Generation/tree/main/client"
-                  target="_blank"
-                  className="cursor-pointer inline-block bg-gray-200 rounded-full p-1 text-sm md:text-xs lg:text-sm font-semibold text-gray-700 mr-2"
-                >
-                  {/* Frontend */}
-                  <svg
-                    className="hover:scale-110 hover:animate-spin"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    width="22"
-                    height="22"
-                    color="blue"
-                    fill="none"
-                  >
-                    <path
-                      d="M8.00001 12C8.00001 6.47715 9.79087 2 12 2C14.2091 2 16 6.47715 16 12C16 17.5228 14.2091 22 12 22C9.79087 22 8.00001 17.5228 8.00001 12Z"
-                      stroke="currentColor"
-                      strokeWidth="1.5"
-                    />
-                    <path
-                      d="M9.97531 8.61921C14.8173 5.85779 19.649 5.17014 20.7673 7.08331C21.8855 8.99648 18.8667 12.786 14.0247 15.5474C9.18271 18.3088 4.35098 18.9965 3.23277 17.0833C2.11455 15.1701 5.13329 11.3806 9.97531 8.61921Z"
-                      stroke="currentColor"
-                      strokeWidth="1.5"
-                    />
-                    <path
-                      d="M14.0247 8.61921C18.8667 11.3806 21.8855 15.1701 20.7673 17.0833C19.649 18.9965 14.8173 18.3088 9.97531 15.5474C5.13329 12.786 2.11455 8.99648 3.23277 7.08331C4.35098 5.17014 9.18271 5.85779 14.0247 8.61921Z"
-                      stroke="currentColor"
-                      strokeWidth="1.5"
-                    />
-                    <path
-                      d="M13.5 12C13.5 12.8284 12.8284 13.5 12 13.5C11.1716 13.5 10.5 12.8284 10.5 12C10.5 11.1716 11.1716 10.5 12 10.5C12.8284 10.5 13.5 11.1716 13.5 12Z"
-                      stroke="currentColor"
-                      strokeWidth="1.5"
-                    />
-                  </svg>
-                </a>
-                <a
-                  title="BackEnd"
-                  href="https://github.com/yash-1104github/AI-Image-Generation/tree/main/server"
-                  target="_blank"
-                  className="cursor-pointer inline-block bg-gray-200 rounded-full p-1 text-sm md:text-xs lg:text-sm font-semibold text-gray-700 mr-2"
-                >
-                  {/* Backend */}
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="22px" height="22px">
-                    <path fill="#388e3c" d="M17.204 19.122l-4.907 2.715C12.113 21.938 12 22.126 12 22.329v5.433c0 .203.113.39.297.492l4.908 2.717c.183.101.41.101.593 0l4.907-2.717C22.887 28.152 23 27.965 23 27.762v-5.433c0-.203-.113-.39-.297-.492l-4.906-2.715c-.092-.051-.195-.076-.297-.076-.103 0-.205.025-.297.076M42.451 24.013l-.818.452c-.031.017-.049.048-.049.082v.906c0 .034.019.065.049.082l.818.453c.031.017.068.017.099 0l.818-.453c.03-.017.049-.048.049-.082v-.906c0-.034-.019-.065-.05-.082l-.818-.452C42.534 24.004 42.517 24 42.5 24S42.466 24.004 42.451 24.013" />
-                    <path fill="#37474f" d="M35.751,13.364l-2.389-1.333c-0.075-0.042-0.167-0.041-0.241,0.003 c-0.074,0.044-0.12,0.123-0.12,0.209L33,20.295l-2.203-1.219C30.705,19.025,30.602,19,30.5,19c-0.102,0-0.205,0.025-0.297,0.076 h0.001l-4.907,2.715C25.113,21.892,25,22.08,25,22.282v5.433c0,0.203,0.113,0.39,0.297,0.492l4.908,2.717 c0.183,0.101,0.41,0.101,0.593,0l4.907-2.717C35.887,28.106,36,27.918,36,27.715V13.788C36,13.612,35.904,13.45,35.751,13.364z M32.866,26.458l-2.23,1.235c-0.083,0.046-0.186,0.046-0.269,0l-2.231-1.235C28.051,26.412,28,26.326,28,26.234v-2.47 c0-0.092,0.051-0.177,0.135-0.224l2.231-1.234h-0.001c0.042-0.023,0.088-0.034,0.135-0.034c0.047,0,0.093,0.012,0.135,0.034 l2.23,1.234C32.949,23.587,33,23.673,33,23.765v2.47C33,26.326,32.949,26.412,32.866,26.458z" /><path fill="#2e7d32" d="M17.204,19.122L12,27.762c0,0.203,0.113,0.39,0.297,0.492l4.908,2.717 c0.183,0.101,0.41,0.101,0.593,0L23,22.329c0-0.203-0.113-0.39-0.297-0.492l-4.906-2.715c-0.092-0.051-0.195-0.076-0.297-0.076 c-0.103,0-0.205,0.025-0.297,0.076" /><path fill="#4caf50" d="M17.204,19.122l-4.907,2.715C12.113,21.938,12,22.126,12,22.329l5.204,8.642 c0.183,0.101,0.41,0.101,0.593,0l4.907-2.717C22.887,28.152,23,27.965,23,27.762l-5.203-8.64c-0.092-0.051-0.195-0.076-0.297-0.076 c-0.103,0-0.205,0.025-0.297,0.076" /><path fill="#37474f" d="M47.703 21.791l-4.906-2.715C42.705 19.025 42.602 19 42.5 19c-.102 0-.205.025-.297.076h.001l-4.907 2.715C37.114 21.892 37 22.084 37 22.294v5.411c0 .209.114.402.297.503l4.908 2.717c.184.102.409.102.593 0l2.263-1.253c.207-.115.206-.412-.002-.526l-4.924-2.687C40.052 26.412 40 26.325 40 26.231v-2.466c0-.092.05-.177.13-.221l2.235-1.236h-.001c.042-.023.088-.034.135-.034.047 0 .093.012.135.034l2.235 1.237c.08.044.13.129.13.221v2.012c0 .086.046.166.121.209.075.042.167.042.242-.001l2.398-1.393c.148-.086.24-.245.24-.417v-1.88C48 22.085 47.886 21.892 47.703 21.791zM10.703 21.791l-4.906-2.715C5.705 19.025 5.602 19 5.5 19c-.102 0-.205.025-.297.076h.001l-4.907 2.715C.114 21.892 0 22.084 0 22.294v7.465c0 .086.046.166.121.209.075.042.167.042.242-.001l2.398-1.393C2.909 28.488 3 28.329 3 28.157v-4.393c0-.092.05-.177.13-.221l2.235-1.236H5.365c.042-.023.088-.034.135-.034.047 0 .093.012.135.034l2.235 1.237C7.95 23.588 8 23.673 8 23.765v4.393c0 .172.091.331.24.417l2.398 1.393c.075.043.167.043.242.001C10.954 29.925 11 29.845 11 29.759v-7.464C11 22.085 10.886 21.892 10.703 21.791z" /></svg>
-                </a>
-              </span>
+            <span>
               <a
                 title="Github"
                 href="https://github.com/yash-1104github/AI-Image-Generation/tree/main"
@@ -601,9 +477,35 @@ export default function Home() {
                   />
                 </svg>
               </a>
-              {/* <span className="cursor-pointer inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                Visit
-              </span> */}
+              </span>
+              <a
+                title="Preview available"
+                href="https://ai-image-generation-drab.vercel.app/"
+                target="_blank"
+                className="cursor-pointer inline-block bg-gray-200 rounded-full p-1 text-sm md:text-xs lg:text-sm font-semibold text-gray-700 "
+              >
+                <svg
+                  className="hover:scale-110 hover:animate-spin"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  width="22"
+                  height="22"
+                  color="#0261d3"
+                  fill="none"
+                >
+                  <path
+                    d="M21.544 11.045C21.848 11.4713 22 11.6845 22 12C22 12.3155 21.848 12.5287 21.544 12.955C20.1779 14.8706 16.6892 19 12 19C7.31078 19 3.8221 14.8706 2.45604 12.955C2.15201 12.5287 2 12.3155 2 12C2 11.6845 2.15201 11.4713 2.45604 11.045C3.8221 9.12944 7.31078 5 12 5C16.6892 5 20.1779 9.12944 21.544 11.045Z"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                  />
+                  <path
+                    d="M15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15C13.6569 15 15 13.6569 15 12Z"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                  />
+                </svg>
+              </a>
+
             </div>
           </div>
         </div>
@@ -624,9 +526,7 @@ export default function Home() {
           <div className="w-1/6 overflow-hidden shadow-lg hover:scale-110 duration-300 border-2 border-sky-600 shadow-black rounded-lg">
             <Image
               className="w-full aspect-square object-cover  box-border"
-              src={
-                "/js.png"
-              }
+              src={"/js.png"}
               alt="Sunset in the mountains"
               width={500}
               height={300}
@@ -937,10 +837,25 @@ export default function Home() {
                 rel="noopener"
                 className="w-min flex items-center  bg-white px-1 py-1 rounded-md text-black transition hover:scale-125 hover:no-underline"
               >
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="leetcode" width="20px" height="20px">
-                  <path fill="#B3B1B0" d="M22 14.355c0-.742-.564-1.346-1.26-1.346H10.676c-.696 0-1.26.604-1.26 1.346s.563 1.346 1.26 1.346H20.74c.696.001 1.26-.603 1.26-1.346z"></path>
-                  <path fill="#E7A41F" d="m3.482 18.187 4.313 4.361c.973.979 2.318 1.452 3.803 1.452 1.485 0 2.83-.512 3.805-1.494l2.588-2.637c.51-.514.492-1.365-.039-1.9-.531-.535-1.375-.553-1.884-.039l-2.676 2.607c-.462.467-1.102.662-1.809.662s-1.346-.195-1.81-.662l-4.298-4.363c-.463-.467-.696-1.15-.696-1.863 0-.713.233-1.357.696-1.824l4.285-4.38c.463-.467 1.116-.645 1.822-.645s1.346.195 1.809.662l2.676 2.606c.51.515 1.354.497 1.885-.038.531-.536.549-1.387.039-1.901l-2.588-2.636a4.994 4.994 0 0 0-2.392-1.33l-.034-.007 2.447-2.503c.512-.514.494-1.366-.037-1.901-.531-.535-1.376-.552-1.887-.038l-10.018 10.1C2.509 11.458 2 12.813 2 14.311c0 1.498.509 2.896 1.482 3.876z"></path>
-                  <path fill="#070706" d="M8.115 22.814a2.109 2.109 0 0 1-.474-.361c-1.327-1.333-2.66-2.66-3.984-3.997-1.989-2.008-2.302-4.937-.786-7.32a6 6 0 0 1 .839-1.004L13.333.489c.625-.626 1.498-.652 2.079-.067.56.563.527 1.455-.078 2.066-.769.776-1.539 1.55-2.309 2.325-.041.122-.14.2-.225.287-.863.876-1.75 1.729-2.601 2.618-.111.116-.262.186-.372.305-1.423 1.423-2.863 2.83-4.266 4.272-1.135 1.167-1.097 2.938.068 4.127 1.308 1.336 2.639 2.65 3.961 3.974.067.067.136.132.204.198.468.303.474 1.25.183 1.671-.321.465-.74.75-1.333.728-.199-.006-.363-.086-.529-.179z"></path>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  id="leetcode"
+                  width="20px"
+                  height="20px"
+                >
+                  <path
+                    fill="#B3B1B0"
+                    d="M22 14.355c0-.742-.564-1.346-1.26-1.346H10.676c-.696 0-1.26.604-1.26 1.346s.563 1.346 1.26 1.346H20.74c.696.001 1.26-.603 1.26-1.346z"
+                  ></path>
+                  <path
+                    fill="#E7A41F"
+                    d="m3.482 18.187 4.313 4.361c.973.979 2.318 1.452 3.803 1.452 1.485 0 2.83-.512 3.805-1.494l2.588-2.637c.51-.514.492-1.365-.039-1.9-.531-.535-1.375-.553-1.884-.039l-2.676 2.607c-.462.467-1.102.662-1.809.662s-1.346-.195-1.81-.662l-4.298-4.363c-.463-.467-.696-1.15-.696-1.863 0-.713.233-1.357.696-1.824l4.285-4.38c.463-.467 1.116-.645 1.822-.645s1.346.195 1.809.662l2.676 2.606c.51.515 1.354.497 1.885-.038.531-.536.549-1.387.039-1.901l-2.588-2.636a4.994 4.994 0 0 0-2.392-1.33l-.034-.007 2.447-2.503c.512-.514.494-1.366-.037-1.901-.531-.535-1.376-.552-1.887-.038l-10.018 10.1C2.509 11.458 2 12.813 2 14.311c0 1.498.509 2.896 1.482 3.876z"
+                  ></path>
+                  <path
+                    fill="#070706"
+                    d="M8.115 22.814a2.109 2.109 0 0 1-.474-.361c-1.327-1.333-2.66-2.66-3.984-3.997-1.989-2.008-2.302-4.937-.786-7.32a6 6 0 0 1 .839-1.004L13.333.489c.625-.626 1.498-.652 2.079-.067.56.563.527 1.455-.078 2.066-.769.776-1.539 1.55-2.309 2.325-.041.122-.14.2-.225.287-.863.876-1.75 1.729-2.601 2.618-.111.116-.262.186-.372.305-1.423 1.423-2.863 2.83-4.266 4.272-1.135 1.167-1.097 2.938.068 4.127 1.308 1.336 2.639 2.65 3.961 3.974.067.067.136.132.204.198.468.303.474 1.25.183 1.671-.321.465-.74.75-1.333.728-.199-.006-.363-.086-.529-.179z"
+                  ></path>
                 </svg>
               </a>
             </li>
@@ -1077,7 +992,6 @@ export default function Home() {
                       required
                     />
                   </div>
-
                 </div>
                 <div className="flex flex-wrap -mx-3 mb-6">
                   <div className="w-full px-3">
@@ -1255,10 +1169,25 @@ export default function Home() {
               rel="noopener"
               className="w-min flex items-center  bg-white px-1 py-1 rounded-md text-black transition hover:scale-125 hover:no-underline"
             >
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="leetcode" width="20px" height="20px">
-                <path fill="#B3B1B0" d="M22 14.355c0-.742-.564-1.346-1.26-1.346H10.676c-.696 0-1.26.604-1.26 1.346s.563 1.346 1.26 1.346H20.74c.696.001 1.26-.603 1.26-1.346z"></path>
-                <path fill="#E7A41F" d="m3.482 18.187 4.313 4.361c.973.979 2.318 1.452 3.803 1.452 1.485 0 2.83-.512 3.805-1.494l2.588-2.637c.51-.514.492-1.365-.039-1.9-.531-.535-1.375-.553-1.884-.039l-2.676 2.607c-.462.467-1.102.662-1.809.662s-1.346-.195-1.81-.662l-4.298-4.363c-.463-.467-.696-1.15-.696-1.863 0-.713.233-1.357.696-1.824l4.285-4.38c.463-.467 1.116-.645 1.822-.645s1.346.195 1.809.662l2.676 2.606c.51.515 1.354.497 1.885-.038.531-.536.549-1.387.039-1.901l-2.588-2.636a4.994 4.994 0 0 0-2.392-1.33l-.034-.007 2.447-2.503c.512-.514.494-1.366-.037-1.901-.531-.535-1.376-.552-1.887-.038l-10.018 10.1C2.509 11.458 2 12.813 2 14.311c0 1.498.509 2.896 1.482 3.876z"></path>
-                <path fill="#070706" d="M8.115 22.814a2.109 2.109 0 0 1-.474-.361c-1.327-1.333-2.66-2.66-3.984-3.997-1.989-2.008-2.302-4.937-.786-7.32a6 6 0 0 1 .839-1.004L13.333.489c.625-.626 1.498-.652 2.079-.067.56.563.527 1.455-.078 2.066-.769.776-1.539 1.55-2.309 2.325-.041.122-.14.2-.225.287-.863.876-1.75 1.729-2.601 2.618-.111.116-.262.186-.372.305-1.423 1.423-2.863 2.83-4.266 4.272-1.135 1.167-1.097 2.938.068 4.127 1.308 1.336 2.639 2.65 3.961 3.974.067.067.136.132.204.198.468.303.474 1.25.183 1.671-.321.465-.74.75-1.333.728-.199-.006-.363-.086-.529-.179z"></path>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                id="leetcode"
+                width="20px"
+                height="20px"
+              >
+                <path
+                  fill="#B3B1B0"
+                  d="M22 14.355c0-.742-.564-1.346-1.26-1.346H10.676c-.696 0-1.26.604-1.26 1.346s.563 1.346 1.26 1.346H20.74c.696.001 1.26-.603 1.26-1.346z"
+                ></path>
+                <path
+                  fill="#E7A41F"
+                  d="m3.482 18.187 4.313 4.361c.973.979 2.318 1.452 3.803 1.452 1.485 0 2.83-.512 3.805-1.494l2.588-2.637c.51-.514.492-1.365-.039-1.9-.531-.535-1.375-.553-1.884-.039l-2.676 2.607c-.462.467-1.102.662-1.809.662s-1.346-.195-1.81-.662l-4.298-4.363c-.463-.467-.696-1.15-.696-1.863 0-.713.233-1.357.696-1.824l4.285-4.38c.463-.467 1.116-.645 1.822-.645s1.346.195 1.809.662l2.676 2.606c.51.515 1.354.497 1.885-.038.531-.536.549-1.387.039-1.901l-2.588-2.636a4.994 4.994 0 0 0-2.392-1.33l-.034-.007 2.447-2.503c.512-.514.494-1.366-.037-1.901-.531-.535-1.376-.552-1.887-.038l-10.018 10.1C2.509 11.458 2 12.813 2 14.311c0 1.498.509 2.896 1.482 3.876z"
+                ></path>
+                <path
+                  fill="#070706"
+                  d="M8.115 22.814a2.109 2.109 0 0 1-.474-.361c-1.327-1.333-2.66-2.66-3.984-3.997-1.989-2.008-2.302-4.937-.786-7.32a6 6 0 0 1 .839-1.004L13.333.489c.625-.626 1.498-.652 2.079-.067.56.563.527 1.455-.078 2.066-.769.776-1.539 1.55-2.309 2.325-.041.122-.14.2-.225.287-.863.876-1.75 1.729-2.601 2.618-.111.116-.262.186-.372.305-1.423 1.423-2.863 2.83-4.266 4.272-1.135 1.167-1.097 2.938.068 4.127 1.308 1.336 2.639 2.65 3.961 3.974.067.067.136.132.204.198.468.303.474 1.25.183 1.671-.321.465-.74.75-1.333.728-.199-.006-.363-.086-.529-.179z"
+                ></path>
               </svg>
             </a>
           </li>

@@ -2,10 +2,10 @@
 import React, { useState, useEffect } from 'react';
 
 function TypingAnimation() {
-  const textArray = [" Full-Stack Developer", " Backend Developer", " Competitve Programmar", " Open Source Contributor", " Tech Enthusiast"];  // Array of sentences to display
-  const typingSpeed = 50;  // Speed of typing each character
-  const erasingSpeed = 30;  // Speed of erasing
-  const delayBetweenTexts = 2000;  // Delay between each sentence
+  const textArray = [" Full-Stack Developer", " Backend Developer", " Competitve Programmar", " Open Source Contributor", " Tech Enthusiast"];  
+  const typingSpeed = 50;  
+  const erasingSpeed = 30;  
+  const delayBetweenTexts = 2000;  
 
   const [text, setText] = useState('');  // Current text being displayed
   const [isTyping, setIsTyping] = useState(true);  // Controls whether typing or erasing is happening
