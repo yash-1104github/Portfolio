@@ -202,12 +202,12 @@ export default function Home() {
             skills, to create impactful solutions and grow as software
             developer.
           </div>
-          <div className="hidden w-9/12 lg:w-11/12 pb-5 text-sm font-mono md:flex items-center  text-gray-400 cursor-default text-center pl-6">
-            FullStack Developer | Backend | Node.Js | MySQL | React Js | MONGODB
-            | Tailwind | DSA | Problem solving | Competitive Programmer
+          <div className="hidden w-9/12 lg:w-11/12 pb-5 text-sm font-mono md:flex items-center mt-8 text-gray-400 cursor-default text-center pl-6">
+            Javascript | Python | TypeScript | React | React-Native | Next.Js | Node.Js | Exprees.js | MySQL | AWS | GCP | MongoDB | PostgreSQL | Docker
+            | Firebase | HTML | TailwindCSS | DSA | Problem solving | Competitive Programmer
           </div>
           <div className="hidden w-9/12 lg:w-11/12 pb-5 text-sm font-mono md:flex items-center  text-gray-400 cursor-default text-center pl-4">
-            Final-year B.Tech CSE at JIIT, Nodia with a strong passion for
+             B.Tech CSE Graduate from JIIT, Nodia with a strong passion for
             Software and problem-solving.I have solid understanding of building
             scalable and efficient solutions.I am eager to apply my technical
             skills, to create impactful solutions and grow as software
@@ -267,6 +267,28 @@ export default function Home() {
                 </svg>
               </span>
             </a>
+             <a href="https://www.linkedin.com/in/yash-gupta-1a137b223/" target="_blank">
+              <span className="flex gap-2 font-mono items-center cursor-pointer px-5 py-2 border-2 border-white rounded-md hover:bg-gray-800">
+                <span className="text-xs md:text-sm">Linkedin </span>
+                <svg
+                  className="hover:scale-110 hover:animate-spin"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  width="20"
+                  height="20"
+                  color="white"
+                  fill="none"
+                >
+                  <path
+                    d="M6.51734 17.1132C6.91177 17.6905 8.10883 18.9228 9.74168 19.2333M9.86428 22C8.83582 21.8306 2 19.6057 2 12.0926C2 5.06329 8.0019 2 12.0008 2C15.9996 2 22 5.06329 22 12.0926C22 19.6057 15.1642 21.8306 14.1357 22C14.1357 22 13.9267 18.5826 14.0487 17.9969C14.1706 17.4113 13.7552 16.4688 13.7552 16.4688C14.7262 16.1055 16.2043 15.5847 16.7001 14.1874C17.0848 13.1032 17.3268 11.5288 16.2508 10.0489C16.2508 10.0489 16.5318 7.65809 15.9996 7.56548C15.4675 7.47287 13.8998 8.51192 13.8998 8.51192C13.4432 8.38248 12.4243 8.13476 12.0018 8.17939C11.5792 8.13476 10.5568 8.38248 10.1002 8.51192C10.1002 8.51192 8.53249 7.47287 8.00036 7.56548C7.46823 7.65809 7.74917 10.0489 7.74917 10.0489C6.67316 11.5288 6.91516 13.1032 7.2999 14.1874C7.79575 15.5847 9.27384 16.1055 10.2448 16.4688C10.2448 16.4688 9.82944 17.4113 9.95135 17.9969C10.0733 18.5826 9.86428 22 9.86428 22Z"
+                    stroke="currentColor"
+                    strokeWidth="1.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </span>
+            </a>
           </div>
         </div>
       </Element>
@@ -300,7 +322,6 @@ export default function Home() {
             </div>
             <div className="px-6 pt-4 pb-2 bg-gray-900 flex items-center justify-between">
               <span>
-               
                 <a
                   title="Github"
                   href="https://github.com/yash-1104github/AI-Deco"
@@ -452,31 +473,31 @@ export default function Home() {
               </p>
             </div>
             <div className="px-6 pt-4 pb-2 bg-gray-900 flex items-center justify-between">
-            <span>
-              <a
-                title="Github"
-                href="https://github.com/yash-1104github/AI-Image-Generation/tree/main"
-                target="_blank"
-                className="cursor-pointer inline-block bg-gray-200 rounded-full p-1 text-sm md:text-xs lg:text-sm font-semibold text-gray-700 "
-              >
-                <svg
-                  className="hover:scale-110 hover:animate-spin"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                  width="22"
-                  height="22"
-                  color="black"
-                  fill="none"
+              <span>
+                <a
+                  title="Github"
+                  href="https://github.com/yash-1104github/AI-Image-Generation/tree/main"
+                  target="_blank"
+                  className="cursor-pointer inline-block bg-gray-200 rounded-full p-1 text-sm md:text-xs lg:text-sm font-semibold text-gray-700 "
                 >
-                  <path
-                    d="M6.51734 17.1132C6.91177 17.6905 8.10883 18.9228 9.74168 19.2333M9.86428 22C8.83582 21.8306 2 19.6057 2 12.0926C2 5.06329 8.0019 2 12.0008 2C15.9996 2 22 5.06329 22 12.0926C22 19.6057 15.1642 21.8306 14.1357 22C14.1357 22 13.9267 18.5826 14.0487 17.9969C14.1706 17.4113 13.7552 16.4688 13.7552 16.4688C14.7262 16.1055 16.2043 15.5847 16.7001 14.1874C17.0848 13.1032 17.3268 11.5288 16.2508 10.0489C16.2508 10.0489 16.5318 7.65809 15.9996 7.56548C15.4675 7.47287 13.8998 8.51192 13.8998 8.51192C13.4432 8.38248 12.4243 8.13476 12.0018 8.17939C11.5792 8.13476 10.5568 8.38248 10.1002 8.51192C10.1002 8.51192 8.53249 7.47287 8.00036 7.56548C7.46823 7.65809 7.74917 10.0489 7.74917 10.0489C6.67316 11.5288 6.91516 13.1032 7.2999 14.1874C7.79575 15.5847 9.27384 16.1055 10.2448 16.4688C10.2448 16.4688 9.82944 17.4113 9.95135 17.9969C10.0733 18.5826 9.86428 22 9.86428 22Z"
-                    stroke="currentColor"
-                    strokeWidth="1.5"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              </a>
+                  <svg
+                    className="hover:scale-110 hover:animate-spin"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    width="22"
+                    height="22"
+                    color="black"
+                    fill="none"
+                  >
+                    <path
+                      d="M6.51734 17.1132C6.91177 17.6905 8.10883 18.9228 9.74168 19.2333M9.86428 22C8.83582 21.8306 2 19.6057 2 12.0926C2 5.06329 8.0019 2 12.0008 2C15.9996 2 22 5.06329 22 12.0926C22 19.6057 15.1642 21.8306 14.1357 22C14.1357 22 13.9267 18.5826 14.0487 17.9969C14.1706 17.4113 13.7552 16.4688 13.7552 16.4688C14.7262 16.1055 16.2043 15.5847 16.7001 14.1874C17.0848 13.1032 17.3268 11.5288 16.2508 10.0489C16.2508 10.0489 16.5318 7.65809 15.9996 7.56548C15.4675 7.47287 13.8998 8.51192 13.8998 8.51192C13.4432 8.38248 12.4243 8.13476 12.0018 8.17939C11.5792 8.13476 10.5568 8.38248 10.1002 8.51192C10.1002 8.51192 8.53249 7.47287 8.00036 7.56548C7.46823 7.65809 7.74917 10.0489 7.74917 10.0489C6.67316 11.5288 6.91516 13.1032 7.2999 14.1874C7.79575 15.5847 9.27384 16.1055 10.2448 16.4688C10.2448 16.4688 9.82944 17.4113 9.95135 17.9969C10.0733 18.5826 9.86428 22 9.86428 22Z"
+                      stroke="currentColor"
+                      strokeWidth="1.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
+                </a>
               </span>
               <a
                 title="Preview available"
@@ -505,7 +526,79 @@ export default function Home() {
                   />
                 </svg>
               </a>
+            </div>
+          </div>
 
+          <div className="md:w-[30%] overflow-hidden shadow-lg hover:scale-105 md:hover:scale-110 duration-300 border-2 border-sky-600 shadow-black rounded-lg">
+            <Image
+              className="w-full aspect-video"
+              src="/ss.png"
+              alt="Sunset in the mountains"
+              width={600}
+              height={400}
+            />
+
+            <div className="px-6 py-4 bg-gray-900">
+              <div className="font-bold text-xl mb-2">FOODIVERSE</div>
+              <p className="text-gray-200 md:text-sm lg:text-base font-thin min-h-12">
+                MERN | REACT JS | NODE.JS | TAILWIND | MONGODB | JAVASCRIPT |
+                REST API | EXPRESS JS
+              </p>
+            </div>
+            <div className="px-6 pt-4 pb-2 bg-gray-900 flex items-center justify-between">
+              <span>
+                <a
+                  title="Github"
+                  href="https://github.com/yash-1104github/Foodie"
+                  target="_blank"
+                  className="cursor-pointer inline-block bg-gray-200 rounded-full p-1 text-sm md:text-xs lg:text-sm font-semibold text-gray-700 "
+                >
+                  <svg
+                    className="hover:scale-110 hover:animate-spin"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    width="22"
+                    height="22"
+                    color="black"
+                    fill="none"
+                  >
+                    <path
+                      d="M6.51734 17.1132C6.91177 17.6905 8.10883 18.9228 9.74168 19.2333M9.86428 22C8.83582 21.8306 2 19.6057 2 12.0926C2 5.06329 8.0019 2 12.0008 2C15.9996 2 22 5.06329 22 12.0926C22 19.6057 15.1642 21.8306 14.1357 22C14.1357 22 13.9267 18.5826 14.0487 17.9969C14.1706 17.4113 13.7552 16.4688 13.7552 16.4688C14.7262 16.1055 16.2043 15.5847 16.7001 14.1874C17.0848 13.1032 17.3268 11.5288 16.2508 10.0489C16.2508 10.0489 16.5318 7.65809 15.9996 7.56548C15.4675 7.47287 13.8998 8.51192 13.8998 8.51192C13.4432 8.38248 12.4243 8.13476 12.0018 8.17939C11.5792 8.13476 10.5568 8.38248 10.1002 8.51192C10.1002 8.51192 8.53249 7.47287 8.00036 7.56548C7.46823 7.65809 7.74917 10.0489 7.74917 10.0489C6.67316 11.5288 6.91516 13.1032 7.2999 14.1874C7.79575 15.5847 9.27384 16.1055 10.2448 16.4688C10.2448 16.4688 9.82944 17.4113 9.95135 17.9969C10.0733 18.5826 9.86428 22 9.86428 22Z"
+                      stroke="currentColor"
+                      strokeWidth="1.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
+                </a>
+              </span>
+              <a
+                title="Preview available"
+                href="https://foodie-dusky-ten.vercel.app/"
+                target="_blank"
+                className="cursor-pointer inline-block bg-gray-200 rounded-full p-1 text-sm md:text-xs lg:text-sm font-semibold text-gray-700 "
+              >
+                <svg
+                  className="hover:scale-110 hover:animate-spin"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  width="22"
+                  height="22"
+                  color="#0261d3"
+                  fill="none"
+                >
+                  <path
+                    d="M21.544 11.045C21.848 11.4713 22 11.6845 22 12C22 12.3155 21.848 12.5287 21.544 12.955C20.1779 14.8706 16.6892 19 12 19C7.31078 19 3.8221 14.8706 2.45604 12.955C2.15201 12.5287 2 12.3155 2 12C2 11.6845 2.15201 11.4713 2.45604 11.045C3.8221 9.12944 7.31078 5 12 5C16.6892 5 20.1779 9.12944 21.544 11.045Z"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                  />
+                  <path
+                    d="M15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15C13.6569 15 15 13.6569 15 12Z"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                  />
+                </svg>
+              </a>
             </div>
           </div>
         </div>
