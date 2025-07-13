@@ -194,7 +194,7 @@ export default function Home() {
             <TypingAnimation />{" "}
           </div>
           <div className="md:hidden  pb-5 text-base  flex items-center justify-center mx-auto  text-gray-400 cursor-default text-center">
-            Hi Everyone, I'm Yash developer from India with a strong passion for
+            Hi Everyone, Im Yash developer from India with a strong passion for
             Software and problem-solving.I have solid understanding of building
             scalable and efficient solutions.I am eager to apply my technical
             skills, to create impactful solutions and grow as software
