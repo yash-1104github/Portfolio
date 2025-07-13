@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 
 function TypingAnimation() {
-  const textArray = [" Full-Stack Developer", " Backend Developer", " Competitve Programmar", " Open Source Contributor", " Tech Enthusiast"];  
+  const textArray = [" Full-Stack Developer", " Frontend Developer", " Backend Developer", " Competitve Programmar", " Open Source Contributor", " Tech Enthusiast"];  
   const typingSpeed = 50;  
   const erasingSpeed = 30;  
   const delayBetweenTexts = 2000;  
@@ -43,10 +43,10 @@ function TypingAnimation() {
 
   return (
     <div className="inline-block">
-      <h1 className=" text-blue-400">
+      <div className="text text-blue-400">
         {text}
         <span className="cursor">|</span>
-      </h1>
+      </div>
     </div>
   );
 }
