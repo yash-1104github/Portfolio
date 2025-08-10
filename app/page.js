@@ -156,6 +156,7 @@ export default function Home() {
               </li>
             </Link>
             <Link to="skillsSection" smooth={true} duration={200} offset={-70}>
+            
               <li className="cursor-pointer font-mono hover:text-sky-300">
                 Skills
               </li>
