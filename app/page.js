@@ -156,7 +156,6 @@ export default function Home() {
               </li>
             </Link>
             <Link to="skillsSection" smooth={true} duration={200} offset={-70}>
-            
               <li className="cursor-pointer font-mono hover:text-sky-300">
                 Skills
               </li>
@@ -167,10 +166,10 @@ export default function Home() {
               </li>
             </Link>
             <a
-              href="https://drive.google.com/file/d/1r0uPyYPhHFjVudK4sldB3l7ONHGOIVsP/view?usp=sharing"
+              href="https://drive.google.com/file/d/1rl3Py3tmiPsy35LGINg22jxXr6nYyx8_/view?usp=sharing"
               target="_blank"
             >
-              <li className="rounded-full bg-white text-black cursor-pointer px-3  py-2 font-bold hover:text-sky-900">
+              <li className="rounded-md bg-white  text-black cursor-pointer px-4  py-2 font-bold hover:text-sky-900">
                 RESUME
               </li>
             </a>
@@ -179,12 +178,12 @@ export default function Home() {
       </nav>
 
       {/* Intro Section */}
-      <Element className="container m-auto py-4 md:py-8 lg:py-14 flex justify-center">
+      <Element className="container m-auto py-4 md:py-4 lg:py-10 flex justify-center">
         <div className=" w-full flex flex-col gap-3 justify-center items-center">
-          <div className="text-4xl md:text-5xl lg:text-7xl font-bold cursor-default tracking-wider">
+          <div className="text-4xl md:text-5xl text-slate-200 font-medium lg:text-7xl  cursor-default tracking-wider">
             YASH GUPTA
           </div>
-          <div className="text-sm md:text-md lg:text-xl  font-bold pl-4 cursor-default">
+          <div className="text-sm md:text-md lg:text-xl  font-bold  pl-4 cursor-default">
             {" "}
             {/* <span
               className="text-sky-500 relative w-[max-content] font-mono underline before:absolute before:inset-0 before:animate-typewriter"
@@ -202,7 +201,7 @@ export default function Home() {
             developer.
           </div>
           <div className="md:hidden pb-5 text-base font-mono flex items-center  text-gray-400 cursor-default text-center pl-6">
-            Javascript| TypeScript | Node.Js | MySQL | React Js | MONGODB |
+            Javascript| | Python | TypeScript | Node.Js | MySQL | React Js | MONGODB | Docker | Amazon Web Service | Google Cloud | 
             Tailwind | DSA | Problem solving | Competitive Programmer
           </div>
 
@@ -215,8 +214,8 @@ export default function Home() {
           </div>
           <div className="hidden  pb-5 text-base font-mono md:flex items-center mt-8 text-gray-400 cursor-default text-center pl-6">
             Javascript | Python | TypeScript | React | React-Native | Next.Js |
-            Node.Js | Exprees.js | MySQL | AWS | GCP | MongoDB | PostgreSQL |
-            Docker | Firebase | HTML | Tailwind CSS | DSA | Problem solving |
+            Node.Js | Exprees.js | Docker | Amazon Web Service | Google Cloud | MySQL  MongoDB | PostgreSQL |
+             | Firebase | Git/Github | HTML | Tailwind CSS | DSA(C++) | Problem solving |
             Competitive Programmer
           </div>
 
@@ -262,20 +261,28 @@ export default function Home() {
                 (May 2025 - Present)
               </span>
             </div>
-            <div className="text-gray-400 font-mono text-base py-6 text-pretty ">
-              1. Working with a developer team to build the organization website
-              using modern technologies like TypeScript, React.js, Node.js,
-              results in better performance and optimized modern look.
+            <div className="text-slate-400 font-mono text-base py-6 text-pretty ">
+              1. Developed static pages for the company's new website, enhancing
+              UI/UX and page responsiveness, and integrated TanStack Query to
+              enable server-side rendering, improving data fetching efficiency
+              by 30%.
               <br />
-               <br />
-              2. Implemented TanStack Query for data retrieval with REST API
-              architecture which results in server side rendering of data by
-              implementing server side props functionality.
-              <br /> 
-               <br />
-               3. Worked on product dashboard to implement product update
-              functionality, error handling to show warning and error using
-              toast library in real-time.
+              <br />
+              2. Enhanced Single-sheet functionality in product dashboard,
+              implement real-time API data comparison, integrated warnings and
+              error checking features reducing the data entry team workflow by
+              25%.
+              <br />
+              <br />
+              3. Automated product availability checks in procurement dashboard,
+              eliminating manual data entry which improved team efficiency by
+              35%.
+              <br />
+              <br />
+               4. Implemented authentication to secure APIs, Built multi
+              user role based server-client forms for Customer, Sales, Retailer.
+              Worked in React.js, Next.js, TanStack Query, TypeScript, Node.js,
+              REST APIs, Tailwind CSS.
             </div>
           </div>
 
@@ -286,15 +293,16 @@ export default function Home() {
                 (June 2024 - July 2024)
               </span>
             </div>
-            <div className="text-gray-400 font-mono text-base py-6 text-pretty ">
+            <div className="text-slate-400 font-mono text-base py-6 text-pretty ">
               1. Spearheaded a development team to build applications that
               retrieve information about various genres of books and comics, and
               used axios library for fetching data, created ContextAPI hook to
               store it.
               <br />
-               <br />
-              2 Collaborated with the testing team to perform API testing using
-              Postman for different test cases resulting in 91% success rate.
+              <br />
+              2. Collaborated with the testing team to perform API testing
+              using Postman for different test cases resulting in 91% success
+              rate.
             </div>
           </div>
         </div>
